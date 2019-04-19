@@ -5,7 +5,10 @@ class Account extends React.Component {
   render() {
     return (
       <div id='Account-parent'>
-        Account
+        <div>
+          <h1>Login</h1>
+          <input placeholder='username' />
+        </div>
       </div>
     )
   }
